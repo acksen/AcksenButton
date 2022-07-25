@@ -89,7 +89,7 @@ void loop()
 	
 	// Check to see if the button has been long pressed (transitioned from low to high, and remained held greater than specified time period)
 	// This status will clear itself after being read, so the button can only be 'long pressed' once.
-	if (btnBasicButton.onPressed() == true)
+	if (btnBasicButton.onLongPress() == true)
 	{
 		Serial.print("***Button LONG Pressed!,");
 	}

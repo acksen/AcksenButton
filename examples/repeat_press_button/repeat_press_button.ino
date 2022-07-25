@@ -57,8 +57,8 @@ Acceleration is useful for parameters which are very large, so the user can quic
 // ***********************************
 // Variables
 // ***********************************
-AcksenButton btnRepeatButton	=	AcksenButton(REPEAT_BUTTON_INPUT_IO, ACKSEN_BUTTON_MODE_REPEAT, BUTTON_DEBOUNCE_INTERVAL, INPUT)
-AcksenButton btnAccelButton		=	AcksenButton(ACCEL_BUTTON_INPUT_IO, ACKSEN_BUTTON_MODE_ACCELERATE, BUTTON_DEBOUNCE_INTERVAL, INPUT)
+AcksenButton btnRepeatButton	=	AcksenButton(REPEAT_BUTTON_INPUT_IO, ACKSEN_BUTTON_MODE_REPEAT, BUTTON_DEBOUNCE_INTERVAL, INPUT);
+AcksenButton btnAccelButton		=	AcksenButton(ACCEL_BUTTON_INPUT_IO, ACKSEN_BUTTON_MODE_ACCELERATE, BUTTON_DEBOUNCE_INTERVAL, INPUT);
 
 // Declare variables that our buttons will control the setting of
 int iRepeatButtonPressCount, iAccelButtonPressCount;
@@ -135,11 +135,11 @@ void loop()
 	if (ulUpdateSerialDebug - millis() < SERIAL_DEBUG_UPDATE_DELAY)
 	{
 		
-		Serial.print("RepeatCount=")
+		Serial.print("RepeatCount=");
 		Serial.print(iRepeatButtonPressCount);
 		Serial.print(",");
 		
-		Serial.print("AccelCount=")
+		Serial.print("AccelCount=");
 		Serial.println(iAccelButtonPressCount);
 		
 		// Update next refresh time

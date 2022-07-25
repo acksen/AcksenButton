@@ -50,7 +50,7 @@ Demonstrate via debug serial port, response when button is pressed and held for 
 // ***********************************
 // Variables
 // ***********************************
-AcksenButton btnBasicButton	=	AcksenButton(BUTTON_INPUT_IO, ACKSEN_BUTTON_MODE_LONGPRESS, BUTTON_DEBOUNCE_INTERVAL, INPUT)
+AcksenButton btnBasicButton	=	AcksenButton(BUTTON_INPUT_IO, ACKSEN_BUTTON_MODE_LONGPRESS, BUTTON_DEBOUNCE_INTERVAL, INPUT);
 
  
 // ************************************************

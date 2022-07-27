@@ -3,7 +3,7 @@ Button input library for Arduino
 
 ## Documentation
 
-Doxygen Documentation at [Github Pages](https://acksen.github.io/AcksenButton/)
+Doxygen Documentation at [Github Pages](https://acksen.github.io/AcksenButton/docs/html/index.html)
 
 ## Introduction
 
